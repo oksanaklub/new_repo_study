@@ -13,11 +13,12 @@ division = number_1 / number_2
 
 if operation == '+':
     print(addition)
-elif operation == '-':
+if operation == '-':
     print(subtraction)
-elif operation == '*':
+if operation == '*':
     print(multiplication)
-elif operation == '/':
+if operation == '/':
     print(division)
-else:
-    print(f'No allowed operation')
+
+
+
